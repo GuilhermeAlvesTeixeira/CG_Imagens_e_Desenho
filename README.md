@@ -7,17 +7,23 @@ Nessa aplicação é possível alternar entre diferentes primitivas de desenho u
 ## Dependências
 
 Ubuntu/Linux:
+```bash
 sudo apt install libsdl2-dev cmake g++
+```
 
 ## Compilação
 
+```bash
 mkdir build
 cd build
 cmake ..
 make
+```
 
 ## Execução
+```bash
 ./app
+```
 
 ## Estrutura do projeto
 ```bash
