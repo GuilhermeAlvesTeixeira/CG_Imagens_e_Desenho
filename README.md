@@ -1,0 +1,76 @@
+# Atividade 03 - Computação Gŕafica - Imagens e Desenho
+
+Este projeto implementa um conjunto de algoritmos clássicos de rasterização 2D utilizando SDL2 como backend gráfico.
+
+Nessa aplicação é possível alternar entre diferentes primitivas de desenho usando comandos do teclado.
+
+## Dependências
+
+Ubuntu/Linux:
+sudo apt install libsdl2-dev cmake g++
+
+## Compilação
+
+mkdir build
+cd build
+cmake ..
+make
+
+## Execução
+./app
+
+## Estrutura do projeto
+```bash
+include/
+├── draw/
+│ ├── circle.h
+│ ├── ellipse.h
+│ ├── line.h
+│ └── rectangle.h
+└── image.h
+
+src/
+├── draw/          <- Pasta Draw tem todas as primitivas
+│ ├── circle.cpp
+│ ├── ellipse.cpp
+│ ├── line.cpp
+│ └── rectangle.cpp
+├── image.cpp      <- Aqui tem implementação do buffer de imagem
+└── main.cpp
+
+```
+
+## Observações
+O projeto utiliza SDL2 para renderização 2D via textura.Todos os algoritmos são implementados manualmente com o apoio do material de aulas.
+
+## MODOS
+
+### VERTICAL_HORIZONTAL_LINE
+<img width="500" height="400" alt="Vertical-Horizontal" src="https://github.com/user-attachments/assets/6b8de4ae-b5c8-4461-81c1-9adb5846d6d8" />
+
+## DDA
+<img width="500" height="400" alt="DDA" src="https://github.com/user-attachments/assets/d5d78089-f41b-457c-bf52-2b9b008b2927" />
+
+## BRESENHAM_LINE
+
+<img width="500" height="400" alt="Bresenham" src="https://github.com/user-attachments/assets/a9698db5-30b6-4c2a-a42f-38000fbe5170" />
+
+## RECTANGLE
+<img width="500" height="400" alt="Rectangle" src="https://github.com/user-attachments/assets/a25de586-ff2a-4d29-980d-c6d613dcf6f4" />
+
+## CIRCLE_ANGULAR
+<img width="500" height="400" alt="CircleAngular" src="https://github.com/user-attachments/assets/3c3ccd31-4041-4664-bf85-ed105dc2ff2f" />
+
+## CIRCLE_BRESENHAM
+<img width="500" height="400" alt="CircleBresenham" src="https://github.com/user-attachments/assets/96984b95-88ed-4e24-87ef-a8a11212fc09" />
+
+
+## ELLIPSE_ANGULAR
+<img width="500" height="400" alt="EllipseAngle" src="https://github.com/user-attachments/assets/188cd947-991c-416c-8a6b-e7e4c510256b" />
+
+## ELLIPSE_BRESENHAM
+<img width="500" height="400" alt="EllipseBresenham" src="https://github.com/user-attachments/assets/6d0cd14e-d47a-4b2e-b196-49d28ed9dc5d" />
+
+
+### ARTEFATO ENGRAÇADO
+<img width="500" height="400" alt="Artifact" src="https://github.com/user-attachments/assets/fde2cea0-0097-4771-82a1-37e531e196cf" />
