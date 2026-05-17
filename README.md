@@ -2,8 +2,6 @@
 
 Este projeto implementa um conjunto de algoritmos clássicos de rasterização 2D utilizando SDL2 como backend gráfico.
 
-Nessa aplicação é possível alternar entre diferentes primitivas de desenho usando comandos do teclado.
-
 ## Dependências
 
 Ubuntu/Linux:
@@ -48,6 +46,9 @@ src/
 
 ## Observações
 O projeto utiliza SDL2 para renderização 2D via textura.Todos os algoritmos são implementados manualmente com o apoio do material de aulas.
+
+## COMO USAR 
+Nessa aplicação é possível alternar entre diferentes primitivas de desenho usando comandos do teclado. A `tecla 1` ativa o modo de `linhas horizontais e verticais` , enquanto as `teclas 2 e 3` alternam entre os algoritmos de `reta DDA` e `reta Bresenham`, respectivamente. A `tecla 4` ativa o desenho de `retângulos`. Para os círculos, a `tecla 5` seleciona o método `circulo angular` e a `tecla 6` o `circulo de Bresenham`. Já a `tecla 7` ativa o modulo de `elipse angular`, enquanto a `tecla 8` ativa o modo de `elipse de Bresenham`.
 
 ## MODOS
 
