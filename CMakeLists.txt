@@ -14,6 +14,10 @@ add_executable(app
     src/draw/rectangle.cpp
     src/draw/circle.cpp
     src/draw/ellipse.cpp
+
+    src/fill/floodfill_recursive.cpp
+    src/fill/floodfill_stack.cpp
+    src/fill/scanline.cpp
 )
 
 target_include_directories(app PRIVATE
