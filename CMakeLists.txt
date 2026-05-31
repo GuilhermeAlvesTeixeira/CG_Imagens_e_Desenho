@@ -23,6 +23,8 @@ add_executable(app
 target_include_directories(app PRIVATE
     include
     include/draw
+    include/fill
+    include/geometry
     ${SDL2_INCLUDE_DIRS}
 )
 

@@ -7,6 +7,6 @@
 
 // polígono é um vector de pontos
 namespace Fill {
-    void scanlineFill(Image& image, const std::vector<Point>& polygon, int color);
+    void scanline(Image& image, const std::vector<Geometry::Point>& polygon, int color);
 }
     

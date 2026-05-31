@@ -14,3 +14,4 @@ namespace Fill {
     void floodFillStack(Image& image, int x, int y, int color);
     void floodFill(FloodFillParameters& params, int x, int y);
 }
+
