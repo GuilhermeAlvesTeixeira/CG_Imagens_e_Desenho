@@ -78,6 +78,14 @@ Nessa aplicação é possível alternar entre diferentes primitivas de desenho u
 ## ELLIPSE_BRESENHAM
 <img width="500" height="400" alt="EllipseBresenham" src="https://github.com/user-attachments/assets/6d0cd14e-d47a-4b2e-b196-49d28ed9dc5d" />
 
+## FLOODFILL_RECURSIVE;
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/ba0065ad-011d-4291-b0bf-3b2b3b81be09" />
+
+## FLOODFILL_STACK
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/bf563f8c-8589-4cf2-b744-d3826786f7ab" />
+
+## SCANLINE;
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/71970e42-d212-4efe-854f-5107f4cff51e" />
 
 ### ARTEFATO ENGRAÇADO
 <img width="500" height="400" alt="Artifact" src="https://github.com/user-attachments/assets/fde2cea0-0097-4771-82a1-37e531e196cf" />
